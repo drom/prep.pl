@@ -6,7 +6,6 @@
     "5.19"
   ],
   script : [
-    "perl Makefile.PL",
-    "make test"
+    "perl prep.pl -s test/sum/spec.json -t test/sum/sum.txt -o sum.txt"
   ]
 }
