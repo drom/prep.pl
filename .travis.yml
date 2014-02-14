@@ -6,6 +6,7 @@
     "5.19"
   ],
   script : [
-    "perl prep.pl -s test/sum/spec.json -t test/sum/sum.txt -o sum.txt"
+    "perl prep.pl -s test/sum/spec.json -t test/sum/sum.txt -o sum.txt",
+    "more sum.txt"
   ]
 }
