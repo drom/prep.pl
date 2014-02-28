@@ -9,18 +9,25 @@
 **sum.txt** -- Report template
 
 ```perl
+Reporting the sum of
+all elements of array.
+
 //; my $sum = 0;
 //; for my $i (@{$spec}) {
 $i
 //;   $sum += $i;
 //; }
 --------
-$sum
+Sum: $sum
+--------
 ```
 
 **out.txt** -- output file
 
 ```
+Reporting the sum of
+all elements of array.
+
 0
 1
 2
@@ -32,5 +39,6 @@ $sum
 8
 9
 --------
-45
+Sum: 45
+--------
 ```

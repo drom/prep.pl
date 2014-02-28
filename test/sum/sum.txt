@@ -1,7 +1,11 @@
+Reporting the sum of
+all elements of array.
+
 //; my $sum = 0;
 //; for my $i (@{$spec}) {
 $i
 //;   $sum += $i;
 //; }
 --------
-$sum
+Sum: $sum
+--------
