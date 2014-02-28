@@ -1,0 +1,6 @@
+Rock band: $spec->{band}->{name}
+
+People:
+//; for my $e (@{$spec->{band}->{people}}) {
+$e->{year}	$e->{first}	$e->{second}
+//; }
