@@ -1,4 +1,4 @@
-`perl prep.pl -s test/sum/spec.json -t test/sum/sum.txt -o out.txt`
+`perl prep.pl -s spec.json -t sum.txt -o out.txt`
 
 **spec.json** -- data set
 
@@ -6,7 +6,7 @@
 [0,1,2,3,4,5,6,7,8,9]
 ```
 
-**sum.txt** -- Report template
+**sum.txt** -- report template with preprocessor commands
 
 ```perl
 Reporting the sum of
@@ -22,7 +22,7 @@ Sum: $sum
 --------
 ```
 
-**out.txt** -- output file
+**out.txt** -- output report file
 
 ```
 Reporting the sum of
