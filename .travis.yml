@@ -2,8 +2,7 @@
   language : perl,
   perl : [
     "5.14",
-    "5.16",
-    "5.19"
+    "5.16"
   ],
   script : [
     "perl prep.pl -s test/sum/spec.json -t test/sum/sum.txt -o sum.txt",
